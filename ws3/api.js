@@ -1,4 +1,4 @@
-const token = "<Paste your token here!>";
+const token = "EAARQaooZB5iABOZBqE1pvRXxMwQWxHIt3y9Vo8LjZByFzJKUp8zdv8EmW2Vs8dr2AWVM6DljNoid3IwWPjpwtNn7OemXgr9zcTZCbgC75FibJ1BSNao6UqaItcrzZBI0c4ngCkL31aANGsObDhzTQZAgQZBQDmzfHk2WpZBIriZAIvo8F3a3AurgMoN9F1nGzZA8cEq4LHvunfJAZDZD";
 const PAGE_ACCESS_TOKEN = process.env.token || token;
 const request = require('request');
 const axios = require("axios");
@@ -61,8 +61,8 @@ module.exports = {
   temp,
   prefix,
   admin: [
-"8439419946124905",
-"9353065101379295"
+"61554265433272",
+"61554265433272"
 ],
   async sendMessage(senderId, message, pageAccessToken) {
     return await new Promise(async (resolve, reject) => {
@@ -104,11 +104,11 @@ module.exports = {
     resolve(res.data);
     });
   },
-  introduction: `Hello, I am WieAI and I am your assistant.
+  introduction: `Hello, I am kysler ai and I am your assistant.
 Type ${prefix}help for available commands.
 
 Note: WieAI is highly recommended to use Messenger because some features won't work and limited.
-🤖 Created by Neth Aceberos`,
+🤖 Created by kysler the great`,
   api_josh: "https://deku-rest-apis.ooguy.com",
   echavie: "https://echavie3.nethprojects.workers.dev"
 }
